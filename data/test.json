@@ -30,7 +30,7 @@
 			"type": "currency",
             "max-value": 2000,
             "min-value": 100
-		},
+		}, 
         {
 			"column-id": 5,
 			"header": "ID PESSOA AGENTE",
