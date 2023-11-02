@@ -1,0 +1,65 @@
+{
+	"type": "csv",
+	"size": 300,
+    "headers": true,
+	"data-structure": [
+		{
+			"column-id": 0,
+			"header": "ID PESSOA CLIENTE",
+			"type": "uuid"
+		},
+        {
+			"column-id": 1,
+			"header": "NOME CLIENTE",
+			"type": "first-name"
+		},
+        {
+			"column-id": 2,
+			"header": "SOBRENOME CLIENTE",
+			"type": "last-name"
+		},
+        {
+			"column-id": 3,
+			"header": "NUMERO CONTRATO",
+			"type": "code",
+			"size": 9
+		},
+        {
+			"column-id": 4,
+			"header": "VALOR FINANCIADO",
+			"type": "currency",
+            "max-value": 2000,
+            "min-value": 100
+		},
+        {
+			"column-id": 5,
+			"header": "ID PESSOA AGENTE",
+			"type": "uuid"
+		},
+        {
+			"column-id": 6,
+			"header": "QUANTIDADE PARCELAS",
+			"type": "code",
+			"size": 2
+		},
+        {
+			"column-id": 7,
+			"header": "VALOR PARCELA",
+			"type": "currency",
+            "max-value": 300,
+            "min-value": 10
+		},
+        {
+			"column-id": 8,
+			"header": "TAXA JUROS",
+			"type": "currency",
+            "max-value": 3,
+            "min-value": 0
+		},
+        {
+			"column-id": 9,
+			"header": "UF",
+			"type": "state"
+		}
+	]
+}
